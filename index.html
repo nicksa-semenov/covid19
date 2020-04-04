@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Игра «Короновирус»</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="static/css/semantic.min.css" rel="stylesheet">
+        <link href="static/css/styles.css" rel="stylesheet">
+        <script src="static/js/jquery.js"></script>
+        <script src="static/js/game.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="page page-1 active">
+                <div class="main-page">
+                    <button class="ui black basic button main-page__start">
+                        Старт
+                    </button>
+                </div>
+                <div class="copyrights">
+                    Игра сделана Димой Филаретовым
+                </div>
+            </div>
+            <div class="page page-2">
+                <div class="counter">0</div>
+            </div>
+        </div>
+        <div class="overlay">
+            <div class="modal modal-end">
+                <p class="modal-end__icon">
+                    <i class="thumbs up outline icon green"></i>
+                </p>
+                <p class="modal-end__text"></p>
+                <button class="ui green basic button modal-end__start">
+                    Начать заново
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
