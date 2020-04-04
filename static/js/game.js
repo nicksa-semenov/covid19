@@ -13,7 +13,7 @@ function plural(forms, n) {
 $(function() {
     var virusCounter = 0;
     var timeCounter = 0;
-    var gameDuration = 5 * 1000;
+    var gameDuration = 30 * 1000;
     var delta = 20;
     var width = window.innerWidth - delta;
     var height = window.innerHeight - delta;
